@@ -57,10 +57,3 @@ Maybe include a little about these, especially if they are the kinds of things t
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
-
----
-<!-- Upload your own photo and change the path -->
-
-<p style="text-align:center;">
-  <img class="img-circle" src="https://github.com/donbowen/donbowen.github.io/raw/master/images/Headshot2.2.jpg" width="50%">
-</p>
