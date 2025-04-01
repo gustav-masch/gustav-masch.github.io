@@ -1,15 +1,9 @@
 ## About Me
-
-What's up? hey\|you
-
-I am an awesome student at Lehigh, you should hire me!
-
-<!-- Upload your own photo and change the path -->
-
-<p style="text-align:center;">
-  <img class="img-circle" src="https://github.com/donbowen/donbowen.github.io/raw/master/images/logo.png" width="50%">
-</p>
-
+**Lehigh University Class of 2025**
+Integrated Business and Engineering Honors Program
+Industrial and Systems Engineering
+Finance Double Major
+Data Science Minor
 ---
 
 ## Portfolio
@@ -59,3 +53,10 @@ Maybe include a little about these, especially if they are the kinds of things t
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
+
+---
+<!-- Upload your own photo and change the path -->
+
+<p style="text-align:center;">
+  <img class="img-circle" src="https://github.com/donbowen/donbowen.github.io/raw/master/images/Headshot2.2.jpg" width="50%">
+</p>
