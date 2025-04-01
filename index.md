@@ -1,8 +1,12 @@
 ## About Me
 **Lehigh University Class of 2025**
+<br>
 Integrated Business and Engineering Honors Program
+
 Industrial and Systems Engineering
+
 Finance Double Major
+
 Data Science Minor
 ---
 
