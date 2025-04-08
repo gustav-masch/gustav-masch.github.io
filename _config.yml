@@ -4,5 +4,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/edgardjcuadra/">LinkedIn</a> 
   <br>
   <a href="https://www.GitHub.com/edgardjcuadr/">GitHub</a>  
-  
+  <br>
+    
 theme: jekyll-theme-minimal
