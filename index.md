@@ -24,7 +24,7 @@ I am passionate about the Financial Services Sector. Constantly looking to apply
 _**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
 
 <!-- You can show off your midterm analysis by moving the report components and output into this file. Or... -->
-Using 10-Ks, I scraped a word dictionary to identify sentiment and create correlation metrics between the sentiment variables and the stock returns following 10-k filing dates.
+Using 10-Ks, I scraped a word dictionary to identify sentiment and create correlation metrics between the sentiment variables and the stock returns on dates following the 10-k filing.
 
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
