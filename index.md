@@ -4,11 +4,11 @@
 Integrated Business and Engineering Honors Program
 <br>
 Industrial and Systems Engineering
-
+<br>
 Finance Double Major
-
+<br>
 Data Science Minor
-
+<br>
 ---
 
 ## Portfolio
