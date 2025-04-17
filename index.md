@@ -23,15 +23,8 @@ I am passionate about the Financial Services Sector. Constantly looking to apply
 
 _**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
 
-You can show off your midterm analysis by moving the report components and output into this file. Or...
-
-<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
-
----
-
-_**[Regression Practice](Regression_practice)**_
-
-Or: The process that created this page can be used to show off your whole midterm analysis file, as is.
+<!-- You can show off your midterm analysis by moving the report components and output into this file. Or... -->
+Using 10-Ks, I scraped a word dictionary to identify sentiment and create correlation metrics between the sentiment variables and the stock returns following 10-k filing dates.
 
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
@@ -43,7 +36,9 @@ _**[Eventual team project](https://donbowen.github.io/teamproject/)**_
 
 ---
 
-_**[Some personal project](/pdf/sample_presentation.pdf)**_
+_**[Formula 1 Race Predictions](main)**_
+
+Using historical Formula 1 data, I created a Machine Learning model using Random Forest to predict outcomes of Formula 1 races.
 
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
