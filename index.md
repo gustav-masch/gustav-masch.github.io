@@ -8,6 +8,7 @@ Industrial and Systems Engineering
 Finance Double Major
 
 Data Science Minor
+
 ---
 
 ## Portfolio
