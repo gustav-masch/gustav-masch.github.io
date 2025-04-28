@@ -1,14 +1,14 @@
 title: Edgard J Cuadra # your name (or website title) here
 logo: "/images/Headshot2.2.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <a> My Information </a>
+  <p align = "center" style = "font-style: bold"> My Information </p>
   <br>
   <a href="https://www.linkedin.com/in/edgardjcuadra/">LinkedIn</a> 
   <br>
   <a href="https://www.GitHub.com/edgardjcuadra/">GitHub</a>  
   <br>
   <br>
-  <a> Contact Information </a> 
+  <p> Contact Information </p> 
   <br>
   <a> edgardcuadra8@gmail.com </a>
   <br>
