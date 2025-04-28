@@ -45,7 +45,7 @@ To finish off, we created three different data frames, all which contain aggrega
     - A positive sign means they move together, and a negative sign means they move in opposite directions.
 3. Magniture -> strength of linear fit.
     - Correlation Coefficients run from -1 (perfect inverse) through 0 (no linear relationship) to +1 (perfect direct)
-    - E.g. An r of 0.89 (correlation) is very high: it implies a very tight, roughly straight-line clustering of points. In fact, a squared r, assuming r = 0.89, $r^{2}$ = 0.79 means that about 79% of the variablity in one variable would be "explained" by a simple linear regression on the other.
+    - E.g. An r of 0.89 (correlation) is very high: it implies a very tight, roughly straight-line clustering of points. In fact, a squared r, assuming r = 0.89, r<sup>2</sup> = 0.79 means that about 79% of the variablity in one variable would be "explained" by a simple linear regression on the other.
 
 
 ## Findings
