@@ -21,7 +21,7 @@ I am passionate about the Financial Services Sector. Constantly looking to apply
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Natural language processing 10-Ks to identify risks](report.md)**_
+_**[Financial Engineering - Natural language processing 10-Ks to identify risks](report.md)**_
 
 <!-- You can show off your midterm analysis by moving the report components and output into this file. Or... -->
 Using 10-Ks, I scraped a word dictionary to identify sentiment and create correlation metrics between the sentiment variables and the stock returns on dates following the 10-k filing.
@@ -30,15 +30,22 @@ Using 10-Ks, I scraped a word dictionary to identify sentiment and create correl
 
 ---
 
-_**[Eventual team project](https://donbowen.github.io/teamproject/)**_
+_**[Financial Engineering - Bert and ChronoBert Time Series Analysis using Pairs Trading](https://donbowen.github.io/teamproject/)**_
 
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 ---
 
-_**[Formula 1 Race Predictions](main)**_
+_**[Data Science - Formula 1 Race Predictions](main)**_
 
 Using historical Formula 1 data, I created a Machine Learning model using Random Forest to predict outcomes of Formula 1 races.
+
+<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+
+---
+_**[Financial Optimization - ](main)**_
+
+...
 
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
