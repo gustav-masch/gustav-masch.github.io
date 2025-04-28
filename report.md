@@ -1,8 +1,7 @@
-```
 ---
 layout: wide_default
 ---        
-```
+
 
 ## 10K Sentiment and Returns
 
