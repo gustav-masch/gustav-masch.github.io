@@ -31,7 +31,7 @@ I am passionate about the Financial Services Sector. Constantly looking to apply
 
 ---
 
-## Portfolio
+## Project Portfolio
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
