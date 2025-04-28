@@ -35,12 +35,11 @@ I am passionate about the Financial Services Sector. Constantly looking to apply
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Financial Engineering - Natural language processing 10-Ks to identify risks](report.md)**_
+_**[Financial Engineering - Natural Language Processing 10-Ks to Identify Risk](report.md)**_
 
 <!-- You can show off your midterm analysis by moving the report components and output into this file. Or... -->
-Using 10-Ks, I scraped a word dictionary to identify sentiment and create correlation metrics between the sentiment variables and the stock returns on dates following the 10-k filing.
-
-<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+Using data dictionaries and word sentiment ratings along with financial topic word compilations, the 10-k documents for the S&P 500 firms were scraped and compared to returns around the day of the 10-k filing date to identify correlation metrics between document sentiment variables and stock returns.
+<img src="images/images/output7.png" alt="img" style="width: 500px/>
 
 ---
 
