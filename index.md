@@ -40,10 +40,11 @@ _**[Financial Engineering - Natural Language Processing 10-Ks to Identify Risk](
 <!-- You can show off your midterm analysis by moving the report components and output into this file. Or... -->
 Using data dictionaries and word sentiment ratings along with financial topic word compilations, the 10-k documents for the S&P 500 firms were scraped and compared to returns around the day of the 10-k filing date to identify correlation metrics between document sentiment variables and stock returns.
 <p align = "center">
-    <a href="report.md">
+    <a href="./report.md">
         <img src="images/output6.png" alt="img" style="width: 500px"/>
     </a>
 </p>
+
 ---
 
 _**[Financial Engineering - Bert and ChronoBert Time Series Analysis using Pairs Trading](https://donbowen.github.io/teamproject/)**_
