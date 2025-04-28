@@ -1,6 +1,13 @@
-## You can add additional MD and HTML files to your website
+---
+layout: wide_default
+---
 
-Below, I just write an MD file from scratch.
+## S&P500 10-k Sentiment And Return Correlation
+
+In this project, the 10-k documents from all the S&P 500 companies were gathered and analyzed using dictionaries to identify the sentiment of each document.
+
+Additionally, the returns of each company were analyzed against the sentiment variables to identify the correlation between these.
+
 
 Alternatively, you can "directly" add jupyter notebooks to the site. Look at the ["Regression Practice"](Regression_practice) page for details.
 
