@@ -93,7 +93,7 @@ For this return time window, economic risk proximity yields the highest correlat
 ---
 **Top Correlations on Day Three to Ten Days After Filing**
 <p align = "center">
-    <img src="output/output6.png" alt = "My Image" width = auto height = auto/>
+    <img src="images/output6.png" alt = "My Image" width = auto height = auto/>
 </p>
 
 <p align = "center" style = "font-style: italic">
