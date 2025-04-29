@@ -2,103 +2,105 @@
 layout: wide_default
 ---        
 
-
 ## 10K Sentiment and Returns
 
 Edgard J. Cuadra
 
 _Abstract and Methodology_
 
-To refer to any of the files/folder resort to the following github repository: [10-k Sentiment Repository](https://github.com/edgardjcuadra/asgn-05-edgardjcuadra)
+To access any of the files or folders referenced in this report, please refer to the following GitHub repository: [10-k Sentiment Repository](https://github.com/edgardjcuadra/asgn-05-edgardjcuadra)
 
+In this report, we analyze 10-K filings for S&P 500 firms to assess sentiment and examine its correlation with stock returns following the filing dates. Using Python, we first load two dictionaries of positive and negative words, along with a master dictionary that classifies word sentiment. We then iterate through the documents, extracting relevant words into lists and data frames. Based on the master dictionary, we define several sentiment variables for analysis, including:
 
-In this report, we explore the 10k files for the S&P500 firms in order to determine their sentiment and explore the correlation between the 10k's and the returns on the stock a period after the companies file their documents. Using python, we first load two dictionaries with positive and negative words, along with a master dictionary that includes a classification for positive and negative words. After looping through these documents, we extract the words into a list and a data frame. After looking at the master dictionary, we defined different sentiment variables to include in our analysis. These variables include:
-    1. bad news
-    2. good news
-    3. neutral words
-    4. mildly positive words
-    5. words that describe catastrophic events
-    6. words that describe a turning point
-These classifications are made using the rating for each of the words in order to classify them in levels of good, bad, or neutral.
+1. Bad news  
+2. Good news  
+3. Neutral words  
+4. Mildly positive words  
+5. Words describing catastrophic events  
+6. Words describing turning points  
 
-Additionally, we made several context topics to use a ```NEAR_Regex``` (_a function that finds clusters of specific words_) function to determine if these topics signal something positive or negative. The topics include the following:
-    1. bankruptcy risk - includes words like: "bankruptcy, insolvency, default..." among others
-    2. growth initiatives - includes words like: "expansion, acquisition, growth, scaling..."
-    3. legal exposure - includes words like: "lawsuit, litigacion, penalty..."
-    4. economic risk - includes words like: "volatility, instability, fluctuation..."
-    5. recovery path - includes words like: "recovery, rebound, turnaround..."
+These classifications are derived from each word’s sentiment rating, grouping them into positive, negative, or neutral categories.
 
-Finally, we scraped ```.html``` versions of the 10-k files, looping through each and identifying the found sets for the sentiment and topic variables. 
-While this is executing, we keep track of the ratio of sentiment associated words to the length of the document and the proximity counts of topic related words that signify a nuisance. 
+Additionally, we develop topic-specific indicators using a `NEAR_Regex` function—designed to identify clusters of context-specific words—to detect whether certain themes are associated with positive or negative implications. The identified topics include:
 
-After calculating the sentiment scores, we then proceeded to use a returns document and merged this to our sentiment data. 
+1. **Bankruptcy risk** – e.g., "bankruptcy", "insolvency", "default"  
+2. **Growth initiatives** – e.g., "expansion", "acquisition", "growth", "scaling"  
+3. **Legal exposure** – e.g., "lawsuit", "litigation", "penalty"  
+4. **Economic risk** – e.g., "volatility", "instability", "fluctuation"  
+5. **Recovery path** – e.g., "recovery", "rebound", "turnaround"  
 
-To finish off, we created three different data frames, all which contain aggregated returns for each firm t days after the 10k filling date, and we performed a correlation analysis to determine the relationship between our sentiment variables and the returns t days after the 10k is filed.
+We scrape the `.html` versions of the 10-K filings, iterating through each to identify sentiment and topic indicators. During this process, we track the ratio of sentiment-related words to the document length, as well as the frequency and proximity of topic-specific keywords indicating potential risks or opportunities.
 
-**A few key points about correlation ahead of result analysis:**
+After calculating sentiment scores, we merge the sentiment dataset with a file containing stock return data.
 
+To conclude the analysis, we construct three data frames that aggregate returns for each firm at various intervals following their 10-K filing date. We then perform a correlation analysis to explore the relationship between our sentiment variables and these post-filing returns.
 
-1. It only speaks to linear association, not causation or "which drives which."
-    - A positive correlation simply means that when one variable is above its mean, the other tends to also be above its mean (and vice-versa).
-    - It does not tell you that changes in a sentiment variable cause changes in the stock returns.
-2. The sign tells you the direction of the relationship, but not the causal direction.
-    - A positive sign means they move together, and a negative sign means they move in opposite directions.
-3. Magniture -> strength of linear fit.
-    - Correlation Coefficients run from -1 (perfect inverse) through 0 (no linear relationship) to +1 (perfect direct)
-    - E.g. An r of 0.89 (correlation) is very high: it implies a very tight, roughly straight-line clustering of points. In fact, a squared r, assuming r = 0.89, r<sup>2</sup> = 0.79 means that about 79% of the variablity in one variable would be "explained" by a simple linear regression on the other.
+**A few important notes about correlation before interpreting the results:**
 
+1. Correlation describes **linear association**, not **causation** or directionality.
+    - A positive correlation means that when one variable is above its mean, the other tends to be above its mean as well (and vice versa).
+    - It does **not** imply that changes in sentiment cause changes in stock returns.
+
+2. The **sign** of the correlation indicates direction, not causality.
+    - A positive value means the variables move together; a negative value means they move in opposite directions.
+
+3. **Magnitude** indicates the strength of the linear relationship.
+    - Correlation coefficients range from -1 (perfect negative correlation), to 0 (no correlation), to +1 (perfect positive correlation).
+    - For example, a correlation of 0.89 is very high, indicating a strong linear association. If r = 0.89, then r² = 0.79, suggesting that approximately 79% of the variability in one variable can be explained by a simple linear model using the other.
 
 ## Findings
 
 **Sentiment Variable Correlations Across Different Time Windows**
 
-<p align = "center">
-    <img src="images/output7.png" alt = "My Image" width = auto height = auto/>
+<p align="center">
+    <img src="images/output7.png" alt="Correlation Heatmap" width=auto height=auto />
 </p>
 
-<p align = "center" style = "font-style: italic">
-For this analysis, we observed the returns from the day of the 10-k filing, 0 to 2 days after the filing, and from 3 to 10 days after the finding, along with their correlation to the sentiment analysis.
-As we can observe, there are 10 different variables wich represent the analysis variable performed.
+<p align="center" style="font-style: italic">
+This heatmap presents return correlations from the day of the 10-K filing, 0–2 days post-filing, and 3–10 days post-filing, relative to sentiment variables. 
+There are 10 distinct sentiment metrics represented.
 </p>
 
-This table shows a heatmap fo rthe highest correlations between the dates and variables. The definition of the growth initiative variable shows to have the highest correlation with returns with a significant correlation of ```0.89``` on the day of 10-k filing. This is followed by "recovery path proximity", "economic risk proximity", and "bankruptcy risk proximity".
+This table highlights the highest correlations across sentiment variables and post-filing return periods. The **Growth Initiatives** variable shows the strongest correlation with returns on the day of filing, with a coefficient of `0.89`. This is followed by **Recovery Path Proximity**, **Economic Risk Proximity**, and **Bankruptcy Risk Proximity**.
 
 ---
+
 **Top Correlations on Filing Day Returns**
 
-<p align = "center">
-    <img src="images/output4.png" alt = "My Image" width = auto height = auto/>
+<p align="center">
+    <img src="images/output4.png" alt="Filing Day Correlations" width=auto height=auto />
 </p>
 
-<p align = "center" style = "font-style: italic">
-This figure shows the highest sentiment variable and return correlation for the filing date returns.
+<p align="center" style="font-style: italic">
+This figure displays the sentiment variables with the highest correlations to returns on the day the 10-K was filed.
 </p>
 
-In this graph, we can see the most significant correlation for the individual sentiment variable on the x axis and filing date return on the y axis.
-An important observation from this figure is the slope of the graphs, which can yield insight into return movements for the filing date based on the sentiment variable analyzed.
+The graph visualizes individual sentiment variables (x-axis) against same-day returns (y-axis). One key insight is the slope of the trend lines, which may provide predictive value on how certain sentiment indicators align with immediate market reactions.
 
 ---
-**Top Correlations on Day Zero to Two Days After Filing**
-<p align = "center">
-    <img src="images/output5.png" alt = "My Image" width = auto height = auto/>
+
+**Top Correlations from Day 0 to Day 2 After Filing**
+
+<p align="center">
+    <img src="images/output5.png" alt="Day 0–2 Correlations" width=auto height=auto />
 </p>
 
-<p align = "center" style = "font-style: italic">
-This figure shows the highest correlations for sentiment scores and day 0 - 2 after 10-k filing returns.
+<p align="center" style="font-style: italic">
+This figure presents the strongest correlations between sentiment variables and stock returns over the 0–2 day window post-filing.
 </p>
 
-Similar to the previous figure, this figure shows the correlation for individual sentiment variables on the x axis and days 0 - 2 returns on the y axis. 
-For this return time window, economic risk proximity yields the highest correlation with returns, tailed by growth initiatives proximity, and recovery path proximity.The wider time frame in this image provides insight to the movement of returns based on sentiment scores for these variables. 
+As with the prior figure, sentiment variables are on the x-axis and corresponding returns on the y-axis. In this window, **Economic Risk Proximity** has the highest correlation, followed by **Growth Initiatives Proximity** and **Recovery Path Proximity**. This broader time frame captures delayed investor reactions to specific disclosures in the filings.
 
 ---
-**Top Correlations on Day Three to Ten Days After Filing**
-<p align = "center">
-    <img src="images/output6.png" alt = "My Image" width = auto height = auto/>
+
+**Top Correlations from Day 3 to Day 10 After Filing**
+
+<p align="center">
+    <img src="images/output6.png" alt="Day 3–10 Correlations" width=auto height=auto />
 </p>
 
-<p align = "center" style = "font-style: italic">
-This figure shows the highest correlation scores between sentiment variables and returns 3 - 10 days after the 10-k filing date.
+<p align="center" style="font-style: italic">
+This figure highlights the top correlations between sentiment measures and returns 3–10 days after the 10-K filing.
 </p>
 
-This figure shows that on the longer-run, overall sentiment has a higher correlation with returns in comparison to specific topic based measures.
-
+This longer-term view reveals that **overall sentiment**—as opposed to topic-specific variables—exhibits stronger correlations with stock performance. This may suggest that the broader tone of the filing has a sustained influence on investor expectations and market valuation.
