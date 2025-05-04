@@ -12,3 +12,19 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
     
 theme: jekyll-theme-minimal
+# Add this section
+kramdown:
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+```
+
+3. **Add inline styles** to your template as a quick test to see if styling works:
+
+Create or modify `_layouts/default.html` to include:
+
+````html
+<style>
+  body {
+    background-color: #3B444B !important;
+  }
+</style>
