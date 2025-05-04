@@ -48,7 +48,7 @@ Using data dictionaries and word sentiment ratings along with financial topic wo
 _**[Financial Engineering - Bert and ChronoBert Time Series Analysis using Pairs Trading](https://chronopairs.streamlit.app/){:target="_blank"}**_
 
 This project explores whether CHRONOBERT, a Transformer-based model trained on chronologically ordered data, can improve financial time series forecasting, particularly in the context of pairs trading.
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 
 <!-- --- -->
