@@ -25,6 +25,6 @@ Create or modify `_layouts/default.html` to include:
 ````html
 <style>
   body {
-    background-color: #3B444B !important;
+    background-color: 3B444B #!important;
   }
 </style>
