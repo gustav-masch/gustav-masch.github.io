@@ -1,3 +1,7 @@
+---
+layout: default_color
+---
+
 title: Edgard J Cuadra # your name (or website title) here
 logo: "/images/Headshot2.2.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
@@ -16,15 +20,3 @@ theme: jekyll-theme-minimal
 kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
-```
-
-3. **Add inline styles** to your template as a quick test to see if styling works:
-
-Create or modify `_layouts/default.html` to include:
-
-````html
-<style>
-  body {
-    background-color: 3B444B #!important;
-  }
-</style>
