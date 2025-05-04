@@ -48,21 +48,21 @@ Using data dictionaries and word sentiment ratings along with financial topic wo
 _**[Financial Engineering - Bert and ChronoBert Time Series Analysis using Pairs Trading](https://chronopairs.streamlit.app/){:target="_blank"}**_
 
 This project explores whether CHRONOBERT, a Transformer-based model trained on chronologically ordered data, can improve financial time series forecasting, particularly in the context of pairs trading.
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+
+<!-- --- -->
+
+<!-- _**[Data Science - Formula 1 Race Predictions](main)**_ -->
+
+<!-- Using historical Formula 1 data, I created a Machine Learning model using Random Forest to predict outcomes of Formula 1 races. -->
+
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
-
----
-
-_**[Data Science - Formula 1 Race Predictions](main)**_
-
-Using historical Formula 1 data, I created a Machine Learning model using Random Forest to predict outcomes of Formula 1 races.
-
-<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
-
----
+<!-- ---
 _**[Financial Optimization - ](main)**_
 
-Insert Project description here...
+Insert Project description here... -->
 
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
