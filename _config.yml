@@ -1,7 +1,3 @@
----
-layout: default
----
-
 title: Edgard J Cuadra # your name (or website title) here
 logo: "/images/Headshot2.2.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
@@ -15,8 +11,4 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a> edgardcuadra8@gmail.com </a>
   <br>
     
-theme: jekyll-theme-primer
-
-kramdown:
-  syntax_highlighter_opts:
-    css_class: 'highlight'
+theme: jekyll-theme-minimal
