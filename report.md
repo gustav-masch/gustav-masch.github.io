@@ -21,7 +21,7 @@ In this report, we analyze 10-K filings for S&P 500 firms to assess sentiment an
 
 These classifications are derived from each word’s sentiment rating, grouping them into positive, negative, or neutral categories.
 
-Additionally, we develop topic-specific indicators using a `NEAR_Regex` function—designed to identify clusters of context-specific words—to detect whether certain themes are associated with positive or negative implications. The identified topics include:
+Additionally, we develop topic specific indicators using a `NEAR_Regex` function—designed to identify clusters of context-specific words, to detect whether certain themes are associated with positive or negative implications. The identified topics include:
 
 1. **Bankruptcy risk** – e.g., "bankruptcy", "insolvency", "default"  
 2. **Growth initiatives** – e.g., "expansion", "acquisition", "growth", "scaling"  
@@ -29,7 +29,7 @@ Additionally, we develop topic-specific indicators using a `NEAR_Regex` function
 4. **Economic risk** – e.g., "volatility", "instability", "fluctuation"  
 5. **Recovery path** – e.g., "recovery", "rebound", "turnaround"  
 
-We scrape the `.html` versions of the 10-K filings, iterating through each to identify sentiment and topic indicators. During this process, we track the ratio of sentiment-related words to the document length, as well as the frequency and proximity of topic-specific keywords indicating potential risks or opportunities.
+We scrape the `.html` versions of the 10-K filings, iterating through each to identify sentiment and topic indicators. During this process, we track the ratio of sentiment related words to the document length, as well as the frequency and proximity of topic-specific keywords indicating potential risks or opportunities.
 
 After calculating sentiment scores, we merge the sentiment dataset with a file containing stock return data.
 
@@ -103,4 +103,4 @@ As with the prior figure, sentiment variables are on the x-axis and correspondin
 This figure highlights the top correlations between sentiment measures and returns 3–10 days after the 10-K filing.
 </p>
 
-This longer-term view reveals that **overall sentiment**—as opposed to topic-specific variables—exhibits stronger correlations with stock performance. This may suggest that the broader tone of the filing has a sustained influence on investor expectations and market valuation.
+This longer-term view reveals that **overall sentiment**, as opposed to topic-specific variables—, xhibits stronger correlations with stock performance. This may suggest that the broader tone of the filing has a sustained influence on investor expectations and market valuation.

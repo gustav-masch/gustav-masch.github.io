@@ -16,7 +16,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
     
 theme: jekyll-theme-minimal
-# Add this section
+
 kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
