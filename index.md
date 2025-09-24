@@ -2,26 +2,12 @@
 layout: wide_default
 ---
 ## About Me
-**Lehigh University Class of 2025**
-<br>
-Integrated Business and Engineering Honors Program
+**Lehigh University Class of 2021**
 <br>
 Industrial and Systems Engineering
 <br>
-Finance Double Major
+Economics Minor
 <br>
-Data Science Minor
-<br>
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <a href="https://ibe.lehigh.edu/welcome-lehighs-ibe-honors-program">
-    <img src="/images/IBE logo.png" alt="IBE Logo" style="width: 100px; margin-right: 15px;">
-  </a>
-  <span>
-    <a href="https://ibe.lehigh.edu/welcome-lehighs-ibe-honors-program">
-      <strong><em>Read About Lehigh's Integrated Business and Engineering (IBE) Honors Program</em></strong>
-    </a>
-  </span>
-</div>
 
 ---
 
