@@ -1,6 +1,7 @@
 ---
 layout: wide_default
 ---
+
 ## About Me
 **Columbia University in the City of New York**
 <br>
