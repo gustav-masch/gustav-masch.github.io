@@ -2,9 +2,18 @@
 layout: wide_default
 ---
 ## About Me
-**Lehigh University Class of 2021**
+**Columbia University in the City of New York**
 <br>
-Industrial and Systems Engineering
+September 2024 - December 2025
+<br>
+M.Sc. - Enterprise Risk Management
+<br>
+
+**Lehigh University**
+<br>
+August 2017 - May 2021
+<br>
+B.S. - Industrial and Systems Engineering
 <br>
 Economics Minor
 <br>
