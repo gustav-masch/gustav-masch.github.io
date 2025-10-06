@@ -5,14 +5,14 @@ layout: wide_default
 ## About Me
 **Columbia University in the City of New York**
 <br>
-**M.Sc. - Enterprise Risk Management**
+**M.Sc. in Enterprise Risk Management**
 <br>
 September 2024 - December 2025
 <br>
 
 **Lehigh University**
 <br>
-**B.S. - Industrial and Systems Engineering**
+**B.Sc. in Industrial and Systems Engineering**
 <br>
 Economics Minor
 <br>
